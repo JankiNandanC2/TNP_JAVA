@@ -30,6 +30,7 @@ public class Program_1 {
         }
         System.out.println();
         try{
+            //  java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 4
             int[] arr ={1,2,3,4};
             arr[5] = 44 ;
         }catch (Exception u){
