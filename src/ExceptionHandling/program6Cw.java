@@ -22,7 +22,7 @@ class arr{
 }
 
 public class program6Cw {
-    static void main(String[] args) {
+   public static void main(String[] args) {
         arr obj =new arr();
         obj.find("Anushka");
     }
