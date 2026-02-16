@@ -1,0 +1,21 @@
+String s  = "Hello" // here "hello" stored in string constant pool
+// s is stored in stack memory
+
+String s = new String("hello") ; // here its "hello" stored in heap memory
+
+int a = 77 ; // a is stored in stack
+
+// Diamond Problem
+      Parent
+      /    \
+  child     child
+    \        /
+     subChild
+
+// static -- creates relation with that specific class
+             doesn't require object creation for calling the method
+
+
+// method overloading --- same method name but diff parameters
+
+// method overriding -- in inheritance child class inherits the function of parent class and then perform changes in the function by overriding the method
