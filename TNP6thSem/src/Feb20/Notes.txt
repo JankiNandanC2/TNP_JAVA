@@ -1,0 +1,23 @@
+Why we don't have to import java lang package ?
+                           ---- >  har class extend karta hai Object ko by default
+                           ----->  sabhi class ka by defualt " Object class " Parent hota hai
+                           class A extends Object{}
+                           class B extends A{}
+
+                           object
+                             |
+                             A          > this is multilevel Inheritance not multiple inheritance
+                             |
+                             B
+
+                  POLYMORPHISM
+--> one name many forms
+ --> two types :- 1 compile time / static / achieved using method overloading
+                        -> inheritance not required for method overloading
+                        -> cannot create a method with same name and same parameter
+                        --> no of parameter should be different or type of parameter should be different
+                        -> call of method is decided at compile time
+                        -> private method cannot be called by other class as private method is visible to same class or inherited clas
+
+                  2 run  time / dynamic / achieved using method overriding
+                        -> inheritance required
