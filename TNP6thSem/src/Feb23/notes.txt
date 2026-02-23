@@ -1,0 +1,8 @@
+                        Encapsulatiion
+
+       -> variables are private -- only accessed by that oarticular class
+        -> getters and setters are used
+                       |
+        ->  getters - sed to retrieve the value / read the value
+
+        >  Setters - Used to set the value / write the value
